@@ -1,78 +1,84 @@
-# 🤖 Tiation Rigger Automation Server
+# tiation-rigger-automation-server
 
 <div align="center">
 
-![Tiation Ecosystem](https://img.shields.io/badge/🔮_TIATION_ECOSYSTEM-tiation_rigger_automation_server-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF)
+![tiation-rigger-automation-server Banner](https://img.shields.io/badge/🔮_TIATION_ECOSYSTEM-tiation-rigger-automation-server-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF)
 
-**Enterprise-grade solution in the Tiation ecosystem**
+**Enterprise-grade solution: tiation-rigger-automation-server**
 
 *Professional • Scalable • Mission-Driven*
 
-[![🌐_Live_Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Project-00FFFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-rigger-automation-server)
-[![📚_Documentation](https://img.shields.io/badge/📚_Documentation-Complete-007FFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-rigger-automation-server)
-[![⚡_Status](https://img.shields.io/badge/⚡_Status-Active_Development-FF00FF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-rigger-automation-server)
-[![📄_License](https://img.shields.io/badge/📄_License-MIT-00FFFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-rigger-automation-server)
+[![🌐_Live_Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Project-00FFFF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/tiation-rigger-automation-server)
+[![📚_Documentation](https://img.shields.io/badge/📚_Documentation-Complete-007FFF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/tiation-rigger-automation-server)
+[![🏗️_Architecture](https://img.shields.io/badge/🏗️_Architecture-Diagram-FF00FF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/tiation-rigger-automation-server/architecture)
+[![⚡_Status](https://img.shields.io/badge/⚡_Status-Active Development-FF00FF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-rigger-automation-server)
+[![📄_License](https://img.shields.io/badge/📄_License-MIT-00FFFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-rigger-automation-server/blob/main/LICENSE)
 
 </div>
-
----
-<div align="center">
-
-![RiggerConnect Backend](https://img.shields.io/badge/RiggerConnect-Backend%20API-00FFFF?style=for-the-badge&logo=node.js&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-00FF00?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-
-**Enterprise-grade backend API and automation engine powering the Tiation Rigger platform ecosystem.**
-
-[![🌐 Live API](https://img.shields.io/badge/🚀%20Live%20API-Production-00FFFF?style=flat-square)](https://api.riggerconnect.com)
-[![💻 GitHub Repository](https://img.shields.io/badge/💻%20GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/tiation/tiation-rigger-automation-server)
-[![📖 Documentation](https://img.shields.io/badge/📖%20Documentation-Swagger%20UI-00FFFF?style=flat-square)](https://api.riggerconnect.com/docs)
-
-</div>
-
----
 
 ## 🚀 Overview
 
-The Tiation Rigger Automation Server is the backbone of the entire RiggerConnect platform, providing a robust, scalable, and secure backend infrastructure. Built with Node.js and Express, it handles everything from user authentication and job matching to payment processing and real-time notifications.
+Enterprise-grade solution: tiation-rigger-automation-server
 
-This enterprise-grade solution features microservices architecture, comprehensive API documentation, and advanced automation capabilities designed to power the construction industry's most demanding job matching requirements.
+### ✨ Key Features
 
-## 🎯 Key Features
+- 🎯 **Feature 1** - Description 1
+- 🔧 **Feature 2** - Description 2
+- 🌟 **Feature 3** - Description 3
+- 🛡️ **Feature 4** - Description 4
 
-### 🔧 Core API Services
-- **🔐 Authentication & Authorization**: JWT-based security with role-based access control
-- **👷 User Management**: Registration, profile management, and compliance verification
-- **💼 Job Management**: Job posting, matching, and application processing
-- **💳 Payment Processing**: Stripe integration for secure transactions
-- **📧 Communication**: Email notifications and real-time messaging
-- **📊 Analytics**: Business intelligence and performance tracking
+---
 
-### 🤖 Automation Engine
-- **🧠 AI-Powered Job Matching**: Machine learning algorithms for optimal worker-job pairing
-- **📋 Compliance Automation**: Automated verification of certifications and safety requirements
-- **🔄 Workflow Automation**: Background processing and scheduled tasks
-- **📈 Performance Monitoring**: Real-time system health and performance metrics
-- **🚨 Alert System**: Automated notifications for critical events
+## 🏗️ Architecture
 
-### 🏗️ Enterprise Features
-- **🔄 Microservices Architecture**: Scalable, modular design for enterprise deployment
-- **📊 API Rate Limiting**: Protection against abuse and DDoS attacks
-- **🔍 Comprehensive Logging**: Detailed audit trails and error tracking
-- **🛡️ Security First**: Industry-standard security practices and compliance
-- **🚀 Auto-scaling**: Kubernetes and Docker deployment ready
+![Architecture Diagram](assets/architecture/tiation-rigger-automation-server-architecture.svg)
 
-## 🛠️ Setup and Installation
+### System Components
 
-### Prerequisites
-- Node.js 18+ and npm 8+
-- MongoDB 5+
-- Redis 6+
-- PostgreSQL 14+ (optional, for analytics)
-- Docker and Docker Compose
-- AWS CLI (for cloud deployments)
+```mermaid
+graph TB
+    A[Component 1] --> B[Component 2]
+    B --> C[Component 3]
+    C --> D[Component 4]
+    
+    style A fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style B fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    style C fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style D fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+```
 
-### 🚀 Local Development Setup
+### Technology Stack
+
+- **Frontend**: Modern Frontend
+- **Backend**: Scalable Backend
+- **Database**: Database
+- **Infrastructure**: Infrastructure
+
+---
+
+## 📋 Table of Contents
+
+- [Features](#-features)
+- [Quick Start](#-quick-start)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Documentation](#-documentation)
+- [Screenshots](#-screenshots)
+- [FAQ](#-faq)
+- [Contributing](#-contributing)
+- [Support](#-support)
+- [License](#-license)
+- [About Tiation](#-about-tiation)
+
+---
+
+## ✨ Features
+
+{{FEATURES_LIST}}
+
+---
+
+## 🏃‍♂️ Quick Start
 
 ```bash
 # Clone the repository
@@ -80,227 +86,153 @@ git clone https://github.com/tiation/tiation-rigger-automation-server.git
 cd tiation-rigger-automation-server
 
 # Install dependencies
-npm install
+{{INSTALL_COMMANDS}}
 
-# Setup environment variables
-cp .env.example .env
-# Edit .env with your configuration
-
-# Start MongoDB and Redis (if not using Docker)
-# mongod
-# redis-server
-
-# Start development server
-npm run dev
-
-# Access the API documentation
-# http://localhost:3000/docs
+# Run the application
+{{RUN_COMMANDS}}
 ```
-
-### 🐳 Docker Development Environment
-
-```bash
-# Start all services with Docker Compose
-docker-compose up -d
-
-# View logs
-docker-compose logs -f
-
-# Access services:
-# API: http://localhost:3000
-# MongoDB: localhost:27017
-# Redis: localhost:6379
-# Swagger UI: http://localhost:3000/docs
-```
-
-### 🏭 Production Deployment
-
-```bash
-# Build for production
-npm run build
-
-# Deploy to AWS
-npm run deploy:aws
-
-# Deploy to Kubernetes
-npm run deploy:k8s
-
-# Deploy with Docker
-docker build -t rigger-automation-server .
-docker run -p 3000:3000 rigger-automation-server
-```
-
-## 📱 Usage Instructions
-
-### API Endpoints
-
-#### Authentication
-```bash
-# Register new user
-POST /api/auth/register
-
-# Login
-POST /api/auth/login
-
-# Refresh token
-POST /api/auth/refresh
-```
-
-#### Job Management
-```bash
-# Get all jobs
-GET /api/jobs
-
-# Create new job
-POST /api/jobs
-
-# Get job by ID
-GET /api/jobs/:id
-
-# Update job
-PUT /api/jobs/:id
-
-# Delete job
-DELETE /api/jobs/:id
-```
-
-#### Worker Management
-```bash
-# Get all workers
-GET /api/workers
-
-# Get worker profile
-GET /api/workers/:id
-
-# Update worker profile
-PUT /api/workers/:id
-
-# Verify compliance
-POST /api/workers/:id/verify-compliance
-```
-
-### Development Workflow
-```bash
-# Start development environment
-npm run dev
-
-# Run tests
-npm run test
-
-# Run integration tests
-npm run test:integration
-
-# Lint code
-npm run lint
-
-# Format code
-npm run format
-
-# Generate API documentation
-npm run docs:generate
-```
-
-## 🏗️ Architecture Diagram Links
-
-- **📋 System Architecture**: [View Full Architecture](https://tiation.github.io/tiation-rigger-workspace-docs/architecture.html)
-- **🔄 API Data Flow**: [Backend Data Flow](https://tiation.github.io/tiation-rigger-workspace-docs/architecture.html#backend-api)
-- **🚀 Deployment**: [Deployment Architecture](https://tiation.github.io/tiation-rigger-workspace-docs/deployment.html)
-
-## 📚 Documentation Links
-
-### 📖 API Documentation
-- **🏁 Getting Started**: [API Quick Start](https://docs.riggerconnect.com/api/getting-started)
-- **🔧 API Reference**: [Complete API Documentation](https://docs.riggerconnect.com/api/reference)
-- **🔐 Authentication**: [Authentication Guide](https://docs.riggerconnect.com/api/authentication)
-- **💳 Payment Integration**: [Payment API Guide](https://docs.riggerconnect.com/api/payments)
-
-### 👨‍💻 Developer Resources
-- **🛠️ Setup Guide**: [Backend Setup Documentation](https://docs.riggerconnect.com/backend/setup)
-- **🧪 Testing**: [Testing Documentation](https://docs.riggerconnect.com/backend/testing)
-- **🚀 Deployment**: [Deployment Guide](https://docs.riggerconnect.com/backend/deployment)
-- **🔧 Contributing**: [Contribution Guidelines](CONTRIBUTING.md)
-
-## 🛠️ Technology Stack
-
-### Backend Framework
-- **Node.js**: JavaScript runtime for server-side development
-- **Express.js**: Web application framework
-- **TypeScript**: Type-safe JavaScript development
-- **Mongoose**: MongoDB object modeling
-- **Redis**: In-memory data structure store
-
-### Security & Authentication
-- **JWT**: JSON Web Tokens for authentication
-- **bcrypt**: Password hashing
-- **helmet**: Security middleware
-- **cors**: Cross-origin resource sharing
-- **express-rate-limit**: Rate limiting middleware
-
-### External Integrations
-- **Stripe**: Payment processing
-- **SendGrid**: Email notifications
-- **AWS S3**: File storage
-- **Firebase**: Push notifications
-- **Twilio**: SMS notifications
-
-### Development Tools
-- **ESLint**: Code linting
-- **Prettier**: Code formatting
-- **Jest**: Unit testing
-- **Supertest**: API testing
-- **Swagger**: API documentation
-
-## 🔗 Component Links
-
-### Related Repositories
-- **[tiation-rigger-workspace](https://github.com/tiation/tiation-rigger-workspace)** - Main workspace
-- **[tiation-rigger-connect-app](https://github.com/tiation/tiation-rigger-connect-app)** - Business application
-- **[tiation-rigger-jobs-app](https://github.com/tiation/tiation-rigger-jobs-app)** - Worker application
-- **[tiation-rigger-mobile-app](https://github.com/tiation/tiation-rigger-mobile-app)** - Mobile application
-
-### Quick Access
-- **🌐 Live API**: [api.riggerconnect.com](https://api.riggerconnect.com)
-- **💻 GitHub Organization**: [github.com/tiation](https://github.com/tiation)
-- **📊 API Status**: [status.riggerconnect.com](https://status.riggerconnect.com)
-- **📖 Documentation**: [docs.riggerconnect.com](https://docs.riggerconnect.com)
-
-## 📊 Performance Metrics
-
-### API Performance
-- **Response Time**: < 100ms average
-- **Throughput**: 10,000+ requests/second
-- **Uptime**: 99.9% SLA
-- **Error Rate**: < 0.1%
-
-### System Resources
-- **Memory Usage**: Optimized for efficiency
-- **CPU Usage**: Auto-scaling based on load
-- **Database**: Optimized queries and indexing
-- **Cache Hit Rate**: > 95%
-
-## 🌟 Enterprise Features
-
-- **Professional Grade**: Enterprise-ready with comprehensive testing and documentation
-- **Scalable Architecture**: Microservices design supports high-volume operations
-- **Security First**: Industry-standard security practices and compliance
-- **Real-time Processing**: WebSocket support for live updates
-- **Monitoring & Analytics**: Built-in performance monitoring and alerting
-- **Integration Ready**: RESTful APIs with comprehensive documentation
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
+## 📦 Installation
+
+### Prerequisites
+
+{{PREREQUISITES}}
+
+### Installation Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/tiation/tiation-rigger-automation-server.git
+   cd tiation-rigger-automation-server
+   ```
+
+2. **Install dependencies**
+   ```bash
+   {{DETAILED_INSTALL_COMMANDS}}
+   ```
+
+3. **Configuration**
+   ```bash
+   {{CONFIG_COMMANDS}}
+   ```
+
+---
+
+## 🎯 Usage
+
+### Basic Usage
+
+{{BASIC_USAGE}}
+
+### Advanced Usage
+
+{{ADVANCED_USAGE}}
+
+### Examples
+
+{{USAGE_EXAMPLES}}
+
+---
+
+## 📚 Documentation
+
+- **[User Guide](docs/user-guide.md)** - Complete user documentation
+- **[API Reference](docs/api-reference.md)** - Technical API documentation
+- **[Architecture](docs/architecture.md)** - System architecture overview
+- **[Deployment Guide](docs/deployment.md)** - Production deployment instructions
+- **[Developer Guide](docs/developer-guide.md)** - Development setup and guidelines
+
+### Live Documentation
+
+Visit our [GitHub Pages site](https://tiation.github.io/tiation-rigger-automation-server) for interactive documentation.
+
+---
+
+## 📸 Screenshots
+
 <div align="center">
-  <p><strong>Built with ❤️ by the Tiation Team</strong></p>
-  <p>© 2024 Tiation. All rights reserved.</p>
-  
-  <a href="https://github.com/tiation/tiation-rigger-automation-server">🌟 Star this repo</a> •
-  <a href="https://github.com/tiation/tiation-rigger-automation-server/issues">🐛 Report Bug</a> •
-  <a href="https://github.com/tiation/tiation-rigger-automation-server/pulls">🔧 Request Feature</a>
+  <img src="assets/screenshots/main-interface.png" alt="Main Interface" width="800">
+  <p><em>Main application interface</em></p>
 </div>
+
+<div align="center">
+  <img src="assets/screenshots/dashboard.png" alt="Dashboard" width="800">
+  <p><em>Analytics dashboard</em></p>
+</div>
+
+---
+
+## ❓ FAQ
+
+### General Questions
+
+**Q: What makes this solution enterprise-grade?**
+A: Our solution includes comprehensive security, scalability, monitoring, and enterprise integration features with professional support.
+
+**Q: Is this compatible with existing systems?**
+A: Yes, we provide extensive API and integration capabilities for seamless system integration.
+
+**Q: What support options are available?**
+A: We offer community support through GitHub Issues and professional enterprise support for commercial users.
+
+### Technical Questions
+
+**Q: What are the system requirements?**
+A: {{SYSTEM_REQUIREMENTS}}
+
+**Q: How do I handle large scale deployments?**
+A: See our [Deployment Guide](docs/deployment.md) for enterprise-scale deployment strategies.
+
+**Q: Are there any security considerations?**
+A: Yes, please review our [Security Guide](docs/security.md) for comprehensive security best practices.
+
+### Troubleshooting
+
+**Q: Common installation issues**
+A: Check our [Troubleshooting Guide](docs/troubleshooting.md) for solutions to common problems.
+
+**Q: Performance optimization**
+A: Refer to our [Performance Guide](docs/performance.md) for optimization strategies.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Development Setup
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests
+5. Submit a pull request
+
+### Code of Conduct
+
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
+
+---
+
+## 🆘 Support
+
+### Community Support
+
+- **GitHub Issues**: [Report bugs or request features](https://github.com/tiation/tiation-rigger-automation-server/issues)
+- **Discussions**: [Join community discussions](https://github.com/tiation/tiation-rigger-automation-server/discussions)
+- **Documentation**: [Browse our documentation](https://tiation.github.io/tiation-rigger-automation-server)
+
+### Enterprise Support
+
+For enterprise customers, we offer:
+- Priority support
+- Custom development
+- Training and consultation
+- SLA guarantees
+
+Contact us at [tiatheone@protonmail.com](mailto:tiatheone@protonmail.com)
 
 ---
 
@@ -308,12 +240,49 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 This repository is part of the Tiation ecosystem. Explore related projects:
 
-- [🌟 TiaAstor](https://github.com/TiaAstor/TiaAstor) - Personal brand and story
+- [🌟 Tiation Platform](https://github.com/tiation/tiation-ai-platform) - Enterprise AI platform
+- [🤖 AI Agents](https://github.com/tiation/tiation-ai-agents) - Intelligent automation
+- [⚡ Terminal Workflows](https://github.com/tiation/tiation-terminal-workflows) - Developer tools
+- [🐳 Docker Solutions](https://github.com/tiation/tiation-docker-debian) - Container orchestration
+- [📝 CMS](https://github.com/tiation/tiation-cms) - Content management system
 - [🐰 ChaseWhiteRabbit NGO](https://github.com/tiation/tiation-chase-white-rabbit-ngo) - Social impact initiatives
 - [🏗️ Infrastructure](https://github.com/tiation/tiation-rigger-infrastructure) - Enterprise infrastructure
-- [🤖 AI Agents](https://github.com/tiation/tiation-ai-agents) - Intelligent automation
-- [📝 CMS](https://github.com/tiation/tiation-cms) - Content management system
-- [⚡ Terminal Workflows](https://github.com/tiation/tiation-terminal-workflows) - Developer tools
 
 ---
-*Built with 💜 by the Tiation team*
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🌟 About Tiation
+
+**Tiation** is a leading provider of enterprise-grade software solutions, specializing in automation, productivity, and system integration tools. Our mission is to empower organizations with cutting-edge technology that drives efficiency and innovation.
+
+### Our Solutions
+
+- **Automation Platform**: Comprehensive business process automation
+- **Developer Tools**: Professional development and deployment tools
+- **Enterprise Integration**: Seamless system integration solutions
+- **Security Framework**: Advanced security and compliance tools
+
+### Connect With Us
+
+- **Website**: [https://github.com/tiation](https://github.com/tiation)
+- **GitHub**: [https://github.com/tiation](https://github.com/tiation)
+- **LinkedIn**: [Tiation Company](https://linkedin.com/company/tiation)
+- **Twitter**: [@TiationTech](https://twitter.com/TiationTech)
+
+---
+
+<div align="center">
+  <p>
+    <strong>Built with ❤️ by the Tiation Team</strong>
+  </p>
+  <p>
+    <a href="https://github.com/tiation">
+      <img src="https://img.shields.io/badge/Powered%20by-Tiation-cyan.svg" alt="Powered by Tiation">
+    </a>
+  </p>
+</div>
